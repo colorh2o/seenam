@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seenam Cafe</title>
+    <meta
+      name="description"
+      content="Seenam Cafe serves handcrafted coffee, light bites, and warm hospitality in the heart of the city."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="login-overlay" id="loginOverlay" aria-live="polite">
+      <div class="login-card">
+        <p class="eyebrow">Private Access</p>
+        <h2>Welcome to Seenam Cafe</h2>
+        <p class="login-subtitle">Enter any name to continue.</p>
+        <form id="loginForm">
+          <label for="guestName" class="sr-only">Username</label>
+          <input
+            id="guestName"
+            type="text"
+            placeholder="Your name or any value"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Enter</button>
+        </form>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">Seenam</div>
+        <nav aria-label="Main navigation" class="nav">
+          <a href="#menu">Menu</a>
+          <a href="#hours">Hours</a>
+          <a href="#location">Location</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Freshly brewed • Slow mornings • Good company</p>
+            <h1>Welcome to Seenam Cafe</h1>
+            <p>
+              A cozy neighborhood coffee house serving signature drinks, brunch favorites,
+              and comforting pastries made to slow the day down.
+            </p>
+            <a class="button" href="#menu">View Menu</a>
+          </div>
+          <div class="hero-card" aria-label="Cafe highlight card">
+            <p>Today’s favorite</p>
+            <h2>Honey Oat Latte</h2>
+            <span>House roasted • seasonal syrup • creamy finish</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Menu</p>
+            <h2>Made with care, served with warmth</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-group">
+              <h3>Coffee</h3>
+              <ul>
+                <li><span>Espresso</span><strong>$6.00</strong></li>
+                <li><span>Americano</span><strong>$7.00</strong></li>
+                <li><span>Vanilla Latte</span><strong>$9.50</strong></li>
+                <li><span>Cold Brew</span><strong>$8.50</strong></li>
+              </ul>
+            </article>
+
+            <article class="menu-group">
+              <h3>Tea &amp; Sips</h3>
+              <ul>
+                <li><span>Green Tea</span><strong>$6.50</strong></li>
+                <li><span>Chai Latte</span><strong>$8.50</strong></li>
+                <li><span>Iced Hibiscus</span><strong>$7.50</strong></li>
+                <li><span>Matcha</span><strong>$9.50</strong></li>
+              </ul>
+            </article>
+
+            <article class="menu-group">
+              <h3>Breakfast</h3>
+              <ul>
+                <li><span>Avocado Toast</span><strong>$14.00</strong></li>
+                <li><span>Egg Croissant</span><strong>$12.50</strong></li>
+                <li><span>Berry Yogurt Bowl</span><strong>$11.50</strong></li>
+                <li><span>Almond Butter Toast</span><strong>$10.00</strong></li>
+                <li><span>ซอยจุ</span><strong>$15.50</strong></li>
+              </ul>
+            </article>
+
+            <article class="menu-group">
+              <h3>Bakery</h3>
+              <ul>
+                <li><span>Butter Croissant</span><strong>$7.50</strong></li>
+                <li><span>Blueberry Muffin</span><strong>$6.50</strong></li>
+                <li><span>Chocolate Cookie</span><strong>$5.50</strong></li>
+                <li><span>Banana Bread</span><strong>$7.00</strong></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="hours" class="section alt-section">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">Opening hours</p>
+            <h2>Come by anytime for a slow sip</h2>
+          </div>
+          <div class="hours-card">
+            <ul>
+              <li><span>Monday – Friday</span><strong>7:00 AM – 7:00 PM</strong></li>
+              <li><span>Saturday</span><strong>8:00 AM – 8:00 PM</strong></li>
+              <li><span>Sunday</span><strong>8:00 AM – 5:00 PM</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="location" class="section">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">Location</p>
+            <h2>Find us in the city center</h2>
+            <p>
+              18 Willow Street<br />
+              Downtown District<br />
+              Brooklyn, NY 11201
+            </p>
+          </div>
+          <div class="map-box" aria-label="Cafe location card">
+            <p>Nearby landmarks</p>
+            <strong>Next to the City Library and River Walk</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-wrap">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect</h2>
+          </div>
+          <div class="contact-info">
+            <p><strong>Phone:</strong> (212) 555-0147</p>
+            <p><strong>Email:</strong> hello@seenamcafe.com</p>
+            <p><strong>Instagram:</strong> @seenamcafe</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Seenam Cafe</p>
+        <p>Fresh coffee. Good mornings.</p>
+      </div>
+    </footer>
+
+    <script>
+      const loginOverlay = document.getElementById('loginOverlay');
+      const loginForm = document.getElementById('loginForm');
+      const guestName = document.getElementById('guestName');
+
+      loginForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const value = guestName.value.trim();
+
+        if (!value) {
+          guestName.focus();
+          return;
+        }
+
+        localStorage.setItem('enamCafeGuest', value);
+        loginOverlay.classList.add('hidden');
+      });
+    </script>
+  </body>
+</html>
